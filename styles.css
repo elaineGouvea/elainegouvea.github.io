@@ -1,7 +1,6 @@
 header {
 	padding: 20px;
-	font-family: Helvetica;
-	text-align: center; 
+	font-family: Helvetica; 
 }
 
 .list1 {
@@ -10,7 +9,7 @@ header {
 	padding: 0;
 }
 
-ul > li {
+nav > ul > li {
 	display: inline-block;
 }
 
@@ -26,6 +25,19 @@ ul > li {
 	width: 100%;
   height: auto;
 }
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
 
 /*ul {
     position: fixed;
