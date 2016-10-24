@@ -1,3 +1,106 @@
-body {
-	background-color: tomato;
+.container {
+	margin: 100px;
+	width: 800px;
+	height: 500px;
 }
+
+header {
+	padding: 20px;
+	font-family: Helvetica; 
+	font-size: xx-large;
+	color: #A31919;
+}
+
+.logo {
+	width: 500px;
+	height: 150px;
+	padding: 10px;
+	overflow: hidden;
+	background-image: url(https://image.freepik.com/free-vector/white-cubes-pattern_1053-248.jpg);
+}
+
+.list1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	font-size: large;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+.portrait-circle {
+  position: relative;
+  width: 400px;
+  height:400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.portrait-circle img {
+	width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1056px) {
+	img {
+		display: none;
+	}
+}
+
+body {
+	font-family: Trebuchet MS;
+	font-size: small;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+#goals {
+	clear: both;
+	border-style: solid;
+	border-width: 1px;
+	width: 500px;
+	padding: 10px;
+	font-family: helvetica;
+}
+
+footer {
+	border-style: none;
+	text-align: center;
+}
+
+footer > nav > ul {
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  padding: 14px 16px;
+}
+
+.active {
+  color: #f3f3f3;
+  background-color: #A31919;
+}
+
+li a {
+  color: #666;
+}
+
+li a:hover {
+  color: #f3f3f3;
+  background-color: #666;
+
+
+	
