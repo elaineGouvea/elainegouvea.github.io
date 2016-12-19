@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
-<form name="Contact me" action="https://httpbin.org/post" method="post">
 <head>
 	<title>Contact me!</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-
+	<!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
 </head>
+
 <body>
-	<div class="container">
-		<p><h1>What's on your mind?</h1></p>
-		<p><h2>I'll get back to you soon after I receive this message. At least, I hope so. Make it interesting, please! If you like to maintain a business approach, that's ok, too. I treat all messages as equals... Except for SPAMs, don't SPAM me!<h2></p>
-		<p><h3>
-			<label>Name:</label>
-				<input type="text" name="name">
-			<label>Email:</label>
-	  	<input type="email" name="e-mail"></h3>
-		</p>
-		<p><h3>
-				<label>Message:</label></h3>
-				  <textarea name="textarea" rows="10" cols="60" placeholder="Leave your message here!"></textarea>
-	  </p>
-		<p>
-			<button type="submit">Send</button>
-		</p>
-	</div>
+	<form name="Contact me" action="https://httpbin.org/post" method="post">
+		<div class="container">
+			<h1>What's on your mind?</h1>
+			I'll get back to you soon after I receive this message. At least, I hope so. Make it interesting, please! If you like to maintain a business approach, that's ok, too. I treat all messages as equals... Except for SPAMs, don't SPAM me!
+			<h2>
+				<label>Name:</label>
+					<input type="text" name="name">
+				<label>Email:</label>
+		  	<input type="email" name="e-mail">
+			
+				<label>Message:</label>
+				  <textarea name="textarea" rows="10" cols="60" placeholder="Leave your message here!"></textarea></h2>
+		  <h3>
+		  	<button type="submit">Send</button>
+			</h3>
+		</div>
+	</form>
+	<footer>
+		<nav>
+				<ul>
+		    	<li>
+	    			<h4><a href="./index.html">Home</a></h4>
+		  		</li>
+		  		<li>
+		    		<h4><a class="active" href="./contact.html">Contact</a></h4>
+			  	</li>
+			  	<li>
+			  		<h4><a href="./aboutme.html">About</a></h4>
+					</li>
+		  	</ul>
+			</nav>
+	</footer>
 </body>
-<footer>
-	<nav>
-			<ul>
-	    	<li>
-    			<h4><a href="./index.html">Home</a></h4>
-	  		</li>
-	  		<li>
-	    		<h4><a class="active" href="./contact.html">Contact</a></h4>
-		  	</li>
-		  	<li>
-		  		<h4><a href="./aboutme.html">About</a></h4>
-				</li>
-	  	</ul>
-		</nav>
-</footer>
 </html>
