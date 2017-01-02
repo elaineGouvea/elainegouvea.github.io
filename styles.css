@@ -6,15 +6,15 @@
 
 header {
 	padding: 20px;
-	font-family: Helvetica; 
+	font-family: Helvetica;
 	font-size: xx-large;
 	color: #A31919;
 }
 
 .logo {
-	width: 500px;
+	width: 900px;
 	height: 150px;
-	padding: 10px;
+	padding: 20px;
 	overflow: hidden;
 	background-image: url(https://image.freepik.com/free-vector/white-cubes-pattern_1053-248.jpg);
 }
@@ -23,8 +23,9 @@ header {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-family: Trebuchet MS;
+	font-family: "Trebuchet MS";
 	font-size: large;
+	display: inline;
 }
 
 nav > ul > li {
@@ -51,7 +52,7 @@ nav > ul > li {
 }
 
 body {
-	font-family: Trebuchet MS;
+	font-family: "Trebuchet MS";
 	font-size: small;
 }
 
@@ -72,13 +73,17 @@ aside {
 	border-style: solid;
 	border-width: 1px;
 	width: 500px;
-	padding: 10px;
+	padding: 20px;
+	margin: 20px;
 	font-family: helvetica;
 }
 
 footer {
 	border-style: none;
 	text-align: center;
+	margin: auto;
+	width: 900px;
+	padding: 20px;
 }
 
 footer > nav > ul {
@@ -101,6 +106,4 @@ li a {
 li a:hover {
   color: #f3f3f3;
   background-color: #666;
-
-
-	
+}
